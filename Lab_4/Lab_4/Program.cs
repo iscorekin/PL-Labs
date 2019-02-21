@@ -27,6 +27,8 @@ namespace Lab_4
                 if (facs[i].Year >= 2000 && facs[i].Cost < averageCost)
                     Console.WriteLine(facs[i]);
             }
+
+            Console.ReadKey();
         }
 
         static Faculty InputFaculty()
