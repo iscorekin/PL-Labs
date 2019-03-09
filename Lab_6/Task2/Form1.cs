@@ -25,7 +25,7 @@ namespace Task2
             if (checkBox2.Checked) baseCost += 50;
             if (checkBox3.Checked) baseCost += 50;
 
-            label2.Text = $"{baseCost}к"
+            label2.Text = $"{baseCost}к";
         }
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
